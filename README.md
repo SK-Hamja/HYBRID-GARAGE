@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HYBRID GARAGE</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #111;
+      color: #eee;
+    }
+    header {
+      background: #000;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    header img {
+      max-width: 300px;
+    }
+    nav {
+      background: #1a1a1a;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px 0;
+    }
+    nav a {
+      color: #66ff66;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .services, .parts {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+    }
+    .card {
+      background: #222;
+      border-radius: 10px;
+      padding: 20px;
+      border: 1px solid #333;
+    }
+    .card h3 {
+      color: #66ff66;
+    }
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #000;
+      color: #888;
+    }
+    a.button {
+      display: inline-block;
+      background: #66ff66;
+      color: #000;
+      padding: 10px 20px;
+      margin-top: 10px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="Hybrid Garage Logo">
+</header>
+
+<nav>
+  <a href="#services">Services</a>
+  <a href="#parts">Parts</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="services">
+    <div class="card">
+      <h3>Hybrid System Diagnosis</h3>
+      <p>Full diagnostics for all hybrid models using advanced tools.</p>
+    </div>
+    <div class="card">
+      <h3>Battery Replacement</h3>
+      <p>High-quality hybrid and EV battery replacements with warranty.</p>
+    </div>
+    <div class="card">
+      <h3>Maintenance & Repairs</h3>
+      <p>From oil changes to engine repairs — we do it all.</p>
+    </div>
+  </div>
+</section>
+
+<section id="parts">
+  <h2>Parts for Sale</h2>
+  <div class="parts">
+    <div class="card">
+      <h3>Hybrid Battery Pack</h3>
+      <p>For Toyota Prius – Starting from $999</p>
+    </div>
+    <div class="card">
+      <h3>Inverter Assembly</h3>
+      <p>Original parts for Honda Insight – Contact for pricing</p>
+    </div>
+    <div class="card">
+      <h3>Charging Cables</h3>
+      <p>High-performance EV cables – Multiple types available</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact Us</h2>
+  <p>📞 Phone: +1 234-567-8901</p>
+  <p>📧 Email: contact@hybridgarage.com</p>
+  <p>📍 Location: Your City, Country</p>
+  <a class="button" href="https://wa.me/1234567890">Message Us on WhatsApp</a>
+</section>
+
+<footer>
+  &copy; 2025 HYBRID GARAGE. All rights reserved.
+</footer>
+
+</body>
+</html>
